@@ -37,9 +37,6 @@ function onInitTask(task, user, file)
 	local header = { "User-Agent: netdisk;6.9.5.1;PC;PC-Windows;6.3.9600;WindowsBaiduYunGuanJia" }
 	--table.insert(header, "Cookie: "..Cookie)
 	table.insert(header, "Cookie: BDUSS="..BDUSS)
-	
-	--table.insert(header, "Cookie: BDUSS=EF6LVA4UXE3QTNiMEl4OVJGSE9LT1lPVVlobmVjUmNJdGhyRTNlT0lNTmhxYUJiQVFBQUFBJCQAAAAAAAAAAAEAAAA9P5p5xL7M7Naquq4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGEceVthHHlbV")
-	--local url = "https://pcs.baidu.com/rest/2.0/pcs/file?method=download&path="..pd.urlEncode(file.path).."&app_id="..appid
 
 	local url = "https://pcs.baidu.com/rest/2.0/pcs/file?method=locatedownload&ver=4.0&path="..pd.urlEncode(file.path).."&app_id="..appid
 	
@@ -131,8 +128,7 @@ function onInitTask(task, user, file)
 	
 	
 	
-    --local url = "https://qdall01.baidupcs.com/file/7ef4e99afba586f6447b9ea04cb134e7?bkt=en-038bee77e919b76a0a3eb96cde45f2de1cdae92c97b9c31661cb76617f02539117bc85ce97171919&fid=4129132250-250528-727025917023526&time=1591776014&sign=FDTAXUGERLQlBHSKfa-DCb740ccc5511e5e8fedcff06b081203-0tjagrH8ZCgCwraRHNPuciLuTw8%3D&to=&size=2147483648&sta_dx=2147483648&sta_cs=27&sta_ft=z16&sta_ct=7&sta_mt=2&fm2=MH%2CYangquan%2CAnywhere%2C%2Csichuan%2Cpbs&ctime=1547717933&mtime=1591266396&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=2147483648&vuk=4129132250&iv=0&htype=&randtype=em&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-3cfaab9ea1943412ede2e71f3e02c4a59f3938cb0651de99afb2b3d40087623fd1b59a42f9d9e8f6&sl=81068110&expires=8h&rt=pr&r=214698192&mlogid=3749510366529073525&vbdid=378808971&fin=PH10.z16&rtype=1&dp-logid=3749510366529073525&dp-callid=0.1.1&tsl=10&csl=50&fsl=-1&csign=53GlbxChcoX%2FP2rrv8RaRnKL8GA%3D&so=1&ut=6&uter=-1&serv=0&uc=3499990295&ti=39965399e74cce8417f71fc541b4ab147663be4de6370633&hflag=-1&adg=c_cd99febbe7859aed3edfd7e428c27163&reqlabel=250528_l_35be71dd9b2c7ee13ceffcac95814230_-1_be25ec52bc86b64c1085c3f4fea44453&by=themis"
-    --task:setUris(url)
+
 	--task:setOptions("host", "d6.baidupcs.com")
 	task:setUris(downloadURL)
 	--task:setUris(downloadURL)
