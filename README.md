@@ -1,6 +1,6 @@
 # Fix-Pandownload-login
 由于kinhdown管理员的举报，我们可能要跑路了
-![https://cdn.jsdelivr.net/gh/Admirepowered/cdn/photo_2020-08-16_21-02-56.jpg](https://cdn.jsdelivr.net/gh/Admirepowered/cdn/photo_2020-08-16_21-02-56.jpg)  
+![T](https://cdn.jsdelivr.net/gh/Admirepowered/cdn/photo_2020-08-16_21-02-56.jpg)  
 各位有缘再见
 Thanks For:  
 https://github.com/TkzcM/pandownload-login  
