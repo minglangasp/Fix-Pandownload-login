@@ -1,0 +1,17 @@
+[pz]
+ver=1.6
+new=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/fix16
+list=https://admir.xyz/blog/ad/list
+init=https://admir.xyz/blog/ad/init
+latest=https://admir.xyz/blog/ad/latest
+login=https://admir.xyz/blog/ad/bdlogin
+
+
+dlist=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/list15
+dinit=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/init3
+dlatest=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/latest9
+dlogin=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/login
+dmlist=069018AB7E0D2DB315089EF9C4E784C9
+dminit=53ECC284AE3B9D2DC273BD9D0A02644B
+dmlatest=C7B950E9C31CDFF441461FAEFF44A381
+dmlogin=23AAA38438C7C835405F77D1D9C5E3DC
