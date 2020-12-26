@@ -1,10 +1,10 @@
 [pz]
 ver=1.6
 new=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/fix16
-list=https://admir.xyz/blog/ad/list
-init=https://admir.xyz/blog/ad/init
-latest=https://admir.xyz/blog/ad/latest
-login=https://admir.xyz/blog/ad/bdlogin
+list=https://gitee.com/Admirepowered/cdb/raw/master/list
+init=https://gitee.com/Admirepowered/cdb/raw/master/init
+latest=https://gitee.com/Admirepowered/cdb/raw/master/latest
+login=https://gitee.com/Admirepowered/cdb/raw/master/bdlogin
 
 
 dlist=https://cdn.jsdelivr.net/gh/Admirepowered/cdn/pd/list15
